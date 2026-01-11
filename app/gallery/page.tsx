@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Phone, Camera, Palette, PartyPopper, Sparkles } from 'lucide-react';
+import { Phone, Camera, Palette, PartyPopper } from 'lucide-react';
 import { breadcrumbSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
@@ -69,18 +69,7 @@ const galleryCategories = [
       { alt: 'Holiday party entertainment', placeholder: 'Holiday Party' },
     ],
   },
-  {
-    id: 'glitter-tattoos',
-    title: 'Glitter Tattoos & More',
-    icon: Sparkles,
-    description: 'Glitter tattoos, henna, and other services',
-    images: [
-      { alt: 'Glitter tattoo butterfly design', placeholder: 'Glitter Butterfly' },
-      { alt: 'Henna hand design', placeholder: 'Henna Design' },
-      { alt: 'Glitter tattoo star design', placeholder: 'Glitter Stars' },
-      { alt: 'Temporary tattoo application', placeholder: 'Temp Tattoos' },
-    ],
-  },
+
 ];
 
 export default function GalleryPage() {
