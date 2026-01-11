@@ -1,0 +1,21 @@
+{
+  "name": "Tango's Fun For You Events",
+  "short_name": "Tango's Fun",
+  "description": "Face painting, balloon twisting & party entertainment in Charlotte, NC",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#d946ef",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
