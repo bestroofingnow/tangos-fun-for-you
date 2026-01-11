@@ -107,22 +107,18 @@ const faqCategories = [
     ],
   },
   {
-    title: 'Other Services',
+  {
+    title: 'Combo Packages',
     faqs: [
       {
-        question: 'Do you offer glitter tattoos and henna in addition to face painting?',
+        question: 'Can I book both face painting and balloon twisting for my event?',
         answer:
-          "Yes! In addition to face painting and balloon twisting, we offer glitter tattoos, henna tattoos, temporary tattoos, and caricature art. These services can be combined for an unforgettable party experience. Glitter tattoos are especially popular for pool parties since they're waterproof and last 3-7 days!",
+          "Absolutely! Many clients book both services. This combination keeps kids entertained and is perfect for larger parties. Contact us for a combo package quote!",
       },
       {
-        question: 'Can we book multiple services for one event?',
+        question: 'What is the best combination for a birthday party?',
         answer:
-          'Absolutely! Many clients book multiple services - for example, face painting AND balloon twisting for a birthday party. We can have one artist providing multiple services or bring multiple artists for larger events. Package deals are available when you combine services.',
-      },
-      {
-        question: 'How long do glitter tattoos last?',
-        answer:
-          'Glitter tattoos typically last 3-7 days depending on placement, skin type, and how much the area is exposed to friction and water. They\'re waterproof, so swimming and showering won\'t affect them. To remove, simply apply baby oil or rubbing alcohol and gently rub off.',
+          'For birthday parties, we recommend booking both face painting and balloon twisting. Kids love getting their faces painted and then receiving a custom balloon creation!',
       },
     ],
   },
