@@ -12,8 +12,15 @@
     scroll-behavior: smooth;
   }
 
+  /* Custom balloon cursor */
   body {
     @apply font-body text-gray-800 antialiased;
+    cursor: url('/balloon-cursor.svg') 16 32, auto;
+  }
+
+  /* Pointer cursor for interactive elements */
+  a, button, [role="button"], input[type="submit"], input[type="button"], select, label[for], .cursor-pointer {
+    cursor: url('/balloon-cursor.svg') 16 32, pointer;
   }
 
   h1, h2, h3, h4, h5, h6 {
