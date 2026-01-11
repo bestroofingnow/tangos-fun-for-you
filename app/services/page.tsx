@@ -3,10 +3,6 @@ import Link from 'next/link';
 import {
   Palette,
   PartyPopper,
-  Sparkles,
-  Flower2,
-  PenTool,
-  Stamp,
   CheckCircle,
   Phone,
   Star,
@@ -16,20 +12,19 @@ import { servicesSchema, breadcrumbSchema } from '@/lib/schema';
 export const metadata: Metadata = {
   title: 'Face Painting, Balloon Twisting & Entertainment Services',
   description:
-    'Professional face painting, balloon twisting, glitter tattoos, henna & caricature services in Charlotte, NC. 25+ years experience. Starting at $125. Book now!',
+    'Professional face painting and balloon twisting services in Charlotte, NC. 25+ years experience. Starting at $125. Book now for your party or event!',
   keywords: [
     'face painting Charlotte NC',
     'balloon twisting Charlotte',
-    'glitter tattoos Charlotte',
-    'henna tattoos Charlotte NC',
-    'caricature artist Charlotte',
+    'face painter near me',
+    'balloon artist Charlotte NC',
     'party entertainment services',
     'kids entertainment Charlotte',
   ],
   openGraph: {
     title: "Entertainment Services | Tango's Fun For You Events",
     description:
-      'Face painting, balloon twisting, glitter tattoos & more in Charlotte, NC. Professional entertainment for parties and events.',
+      'Professional face painting and balloon twisting in Charlotte, NC. Perfect for birthday parties, corporate events, and festivals.',
     url: 'https://tangosfunforyou.com/services',
   },
   alternates: {
@@ -292,7 +287,7 @@ export default function ServicesPage() {
             <span className="gradient-text">Charlotte, NC</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            From face painting to balloon art, glitter tattoos to henna, we offer a full range of professional entertainment services for events of all sizes. Starting at just $125!
+            Professional face painting and balloon twisting that brings magic to any event. 25+ years of experience. Starting at just $125!
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="tel:+17048903715" className="btn-primary">

@@ -4,9 +4,6 @@ import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Star } from 'lucide-re
 const services = [
   { name: 'Face Painting', href: '/services#face-painting' },
   { name: 'Balloon Twisting', href: '/services#balloon-twisting' },
-  { name: 'Glitter Tattoos', href: '/services#glitter-tattoos' },
-  { name: 'Henna Tattoos', href: '/services#henna' },
-  { name: 'Caricature Art', href: '/services#caricatures' },
 ];
 
 const events = [

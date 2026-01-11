@@ -2,7 +2,6 @@ import Link from 'next/link';
 import {
   Palette,
   PartyPopper,
-  Sparkles,
   Star,
   Phone,
   CheckCircle,
@@ -29,13 +28,6 @@ const services = [
     description:
       'Amazing balloon art that brings smiles to every face! Our balloon artists create everything from simple animals to elaborate sculptures and wearable balloon creations.',
     features: ['Balloon animals', 'Swords & wands', 'Balloon hats', 'Custom sculptures'],
-  },
-  {
-    icon: Sparkles,
-    title: 'Glitter Tattoos',
-    description:
-      'Sparkly, eye-catching glitter tattoos that last for days! Perfect for adding extra magic to birthday parties, festivals, and special events.',
-    features: ['Hundreds of designs', 'Waterproof', 'Skin-safe glitter', 'Lasts 3-7 days'],
   },
 ];
 
@@ -188,7 +180,7 @@ export default function HomePage() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {services.map((service) => (
             <article key={service.title} className="service-card p-8">
               <div className="w-16 h-16 bg-gradient-to-br from-primary-100 to-secondary-100 rounded-2xl flex items-center justify-center mb-6">
@@ -212,7 +204,7 @@ export default function HomePage() {
 
         <div className="text-center mt-10">
           <Link href="/services" className="btn-primary">
-            View All Services
+            Learn More About Our Services
           </Link>
         </div>
       </section>
@@ -331,7 +323,7 @@ export default function HomePage() {
           <p className="text-gray-600">4.8 out of 5 based on 36+ reviews</p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {testimonials.map((testimonial, index) => (
             <article key={index} className="card">
               <div className="flex items-center gap-1 mb-4">

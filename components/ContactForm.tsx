@@ -18,10 +18,7 @@ const eventTypes = [
 const services = [
   'Face Painting',
   'Balloon Twisting',
-  'Glitter Tattoos',
-  'Henna Tattoos',
-  'Caricatures',
-  'Temporary Tattoos',
+  'Both Services',
 ];
 
 export default function ContactForm() {
@@ -245,7 +242,7 @@ export default function ContactForm() {
         <label className="block text-sm font-medium text-gray-700 mb-3">
           Services Interested In *
         </label>
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+        <div className="grid grid-cols-3 gap-3">
           {services.map((service) => (
             <label
               key={service}

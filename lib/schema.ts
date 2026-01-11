@@ -113,30 +113,6 @@ export const organizationSchema = {
           description: 'Creative balloon art and sculptures for parties and events',
         },
       },
-      {
-        '@type': 'Offer',
-        itemOffered: {
-          '@type': 'Service',
-          name: 'Glitter Tattoos',
-          description: 'Sparkly temporary glitter tattoos for all ages',
-        },
-      },
-      {
-        '@type': 'Offer',
-        itemOffered: {
-          '@type': 'Service',
-          name: 'Henna Tattoos',
-          description: 'Beautiful traditional henna designs',
-        },
-      },
-      {
-        '@type': 'Offer',
-        itemOffered: {
-          '@type': 'Service',
-          name: 'Caricature Art',
-          description: 'Fun caricature drawings by talented artists',
-        },
-      },
     ],
   },
   image: [
@@ -259,10 +235,10 @@ export const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'Do you offer glitter tattoos and henna in addition to face painting?',
+      name: 'Can I book both face painting and balloon twisting for my event?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: "Yes! In addition to face painting and balloon twisting, Tango's Fun For You Events offers glitter tattoos, henna tattoos, temporary tattoos, and caricature art. These services can be combined for an unforgettable party experience.",
+        text: "Absolutely! Many clients book both face painting and balloon twisting for their events. This combination keeps kids entertained with multiple activities and is perfect for larger parties. Contact us for a combo package quote.",
       },
     },
     {
