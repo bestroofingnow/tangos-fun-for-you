@@ -10,7 +10,7 @@ export const organizationSchema = {
     'Professional face painting, balloon twisting, and entertainment services in Charlotte, NC. Over 25 years of experience creating magical moments at birthday parties, corporate events, festivals, and more.',
   url: 'https://tangosfunforyou.com',
   telephone: '+1-704-890-3715',
-  email: 'info@tangosfunforyou.com',
+  email: 'tangosfunforyou2@gmail.com',
   address: {
     '@type': 'PostalAddress',
     streetAddress: '14016 Loch Loyal Dr',

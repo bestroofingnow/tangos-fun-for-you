@@ -134,11 +134,11 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:info@tangosfunforyou.com"
+                  href="mailto:tangosfunforyou2@gmail.com"
                   className="flex items-start gap-3 text-gray-400 hover:text-primary-400 transition-colors"
                 >
                   <Mail className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                  <span>info@tangosfunforyou.com</span>
+                  <span>tangosfunforyou2@gmail.com</span>
                 </a>
               </li>
               <li className="flex items-start gap-3 text-gray-400">

@@ -35,8 +35,8 @@ const contactMethods = [
   {
     icon: Mail,
     title: 'Email',
-    value: 'info@tangosfunforyou.com',
-    href: 'mailto:info@tangosfunforyou.com',
+    value: 'tangosfunforyou2@gmail.com',
+    href: 'mailto:tangosfunforyou2@gmail.com',
     description: 'For detailed inquiries and quote requests',
   },
   {
@@ -145,10 +145,10 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-bold text-gray-900">Email</h3>
                   <a
-                    href="mailto:info@tangosfunforyou.com"
+                    href="mailto:tangosfunforyou2@gmail.com"
                     className="text-primary-600 hover:text-primary-700 font-medium"
                   >
-                    info@tangosfunforyou.com
+                    tangosfunforyou2@gmail.com
                   </a>
                   <p className="text-sm text-gray-500">We respond within 24 hours</p>
                 </div>
