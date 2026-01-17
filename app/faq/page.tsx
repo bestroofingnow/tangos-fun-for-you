@@ -107,7 +107,6 @@ const faqCategories = [
     ],
   },
   {
-  {
     title: 'Combo Packages',
     faqs: [
       {

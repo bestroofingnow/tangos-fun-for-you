@@ -4,7 +4,12 @@
       "Bash(copy:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(npx vercel ls)",
+      "Bash(npx vercel inspect:*)",
+      "Bash(npx vercel logs:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm install:*)"
     ]
   }
 }
