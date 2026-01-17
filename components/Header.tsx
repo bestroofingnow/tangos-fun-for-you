@@ -2,7 +2,8 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Menu, X, Phone, Sparkles } from 'lucide-react';
+import Image from 'next/image';
+import { Menu, X, Phone } from 'lucide-react';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -35,11 +36,14 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
-            <div className="relative">
-              <Sparkles className="w-8 h-8 text-primary-500 group-hover:text-primary-600 transition-colors" />
-              <div className="absolute -top-1 -right-1 w-3 h-3 bg-accent-400 rounded-full animate-pulse" />
-            </div>
+          <Link href="/" className="flex items-center gap-3 group">
+            <Image
+              src="/logo.jpg"
+              alt="Tango's Fun For You Logo"
+              width={56}
+              height={56}
+              className="rounded-full shadow-md group-hover:shadow-lg transition-shadow"
+            />
             <div className="flex flex-col">
               <span className="text-xl lg:text-2xl font-display font-bold text-gray-900">
                 Tango's Fun For You
