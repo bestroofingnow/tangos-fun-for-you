@@ -12,6 +12,8 @@ import {
   Heart,
   Shield,
   Clock,
+  Sparkles,
+  Gem,
 } from 'lucide-react';
 import { reviewSchema } from '@/lib/schema';
 
@@ -29,6 +31,20 @@ const services = [
     description:
       'Amazing balloon art that brings smiles to every face! Our balloon artists create everything from simple animals to elaborate sculptures and wearable balloon creations.',
     features: ['Balloon animals', 'Swords & wands', 'Balloon hats', 'Paint Parties'],
+  },
+  {
+    icon: Sparkles,
+    title: 'Glitter Tattoos',
+    description:
+      'Add sparkle to your event with our stunning glitter tattoos! Waterproof and lasting 3-7 days, these dazzling temporary tattoos are perfect for pool parties, summer events, and anyone who wants to shine.',
+    features: ['Waterproof - lasts 3-7 days', 'Hundreds of designs', 'Quick application', 'All ages'],
+  },
+  {
+    icon: Gem,
+    title: 'Bling Art',
+    description:
+      'Elevate any look with gorgeous rhinestones and gems! Our bling art service creates eye-catching face and body jewelry designs perfect for festivals, special occasions, and photo-worthy moments.',
+    features: ['Face & body gems', 'Festival looks', 'Custom designs', 'Photo-ready sparkle'],
   },
 ];
 
@@ -105,8 +121,8 @@ export default function HomePage() {
                 <span className="gradient-text">Balloon Art</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8 max-w-xl mx-auto lg:mx-0">
-                Make your next event unforgettable with professional entertainment that kids and adults love.
-                Serving Charlotte, NC and surrounding areas.
+                Make your next event unforgettable with professional face painting, balloon twisting, glitter tattoos & bling art.
+                Serving Charlotte, Lake Norman & surrounding areas.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
@@ -175,10 +191,10 @@ export default function HomePage() {
       <section className="section-padding bg-gray-50" id="services">
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-display font-bold text-gray-900 mb-4">
-            Our Entertainment Services in Charlotte, NC
+            Our Entertainment Services in Charlotte & Lake Norman
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            From face painting to balloon art, we offer a variety of entertainment options to make your event magical.
+            From face painting and balloon art to glitter tattoos and bling art, we offer everything to make your event magical.
           </p>
         </div>
 
@@ -351,15 +367,17 @@ export default function HomePage() {
       <section className="section-padding bg-gray-900 text-white">
         <div className="text-center">
           <h2 className="text-3xl lg:text-4xl font-display font-bold mb-4">
-            Serving the Greater Charlotte Metro Area
+            Serving Charlotte, Lake Norman & Beyond
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-            We proudly provide face painting, balloon twisting, and entertainment services throughout Charlotte and surrounding communities.
+            We proudly provide face painting, balloon twisting, glitter tattoos, and bling art throughout Charlotte, Lake Norman, and surrounding communities.
           </p>
 
           <div className="flex flex-wrap justify-center gap-3 mb-10">
             {[
               'Charlotte',
+              'Lake Norman',
+              'Mooresville',
               'Matthews',
               'Mint Hill',
               'Huntersville',

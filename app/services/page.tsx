@@ -6,13 +6,15 @@ import {
   CheckCircle,
   Phone,
   Star,
+  Sparkles,
+  Gem,
 } from 'lucide-react';
 import { servicesSchema, breadcrumbSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
-  title: 'Face Painting, Balloon Twisting & Entertainment Services',
+  title: 'Face Painting, Balloon Twisting, Glitter Tattoos & Bling Art Services',
   description:
-    'Professional face painting and balloon twisting services in Charlotte, NC. 25+ years experience. Starting at $125. Book now for your party or event!',
+    'Professional face painting, balloon twisting, glitter tattoos & bling art in Charlotte NC & Lake Norman. 25+ years experience. Starting at $125. Book now!',
   keywords: [
     'face painting Charlotte NC',
     'balloon twisting Charlotte',
@@ -20,11 +22,17 @@ export const metadata: Metadata = {
     'balloon artist Charlotte NC',
     'party entertainment services',
     'kids entertainment Charlotte',
+    'glitter tattoos Charlotte NC',
+    'bling art Charlotte',
+    'temporary tattoos kids party',
+    'Lake Norman face painting',
+    'Mooresville face painter',
+    'kids party entertainment Lake Norman',
   ],
   openGraph: {
     title: "Entertainment Services | Tango's Fun For You Events",
     description:
-      'Professional face painting and balloon twisting in Charlotte, NC. Perfect for birthday parties, corporate events, and festivals.',
+      'Professional face painting, balloon twisting, glitter tattoos & bling art in Charlotte NC & Lake Norman. Perfect for birthday parties, corporate events, and festivals.',
     url: 'https://tangosfunforyou.com/services',
   },
   alternates: {
@@ -107,6 +115,80 @@ The magic of balloon twisting lies in the performance - watching a simple balloo
       },
     ],
   },
+  {
+    id: 'glitter-tattoos',
+    icon: Sparkles,
+    title: 'Glitter Tattoos',
+    subtitle: 'Sparkle & Shine Entertainment',
+    description:
+      'Add some sparkle to your event with our stunning glitter tattoos! These long-lasting, waterproof temporary tattoos are perfect for kids and adults who want to shine without the commitment of face paint.',
+    longDescription: `Glitter tattoos are a fantastic alternative or addition to face painting. Using cosmetic-grade glitter and skin-safe adhesive, we create dazzling designs that last 3-7 days and are waterproof - perfect for pool parties and summer events!
+
+Our glitter tattoo collection includes hundreds of stencil designs from popular characters to elegant patterns. They're quick to apply, making them ideal for high-volume events where you want every guest to leave with something special.`,
+    features: [
+      'Waterproof - lasts 3-7 days',
+      'Cosmetic-grade, skin-safe glitter',
+      'Hundreds of stencil designs',
+      'Quick application (1-2 minutes each)',
+      'Perfect for all ages',
+      'Great for pool parties & outdoor events',
+    ],
+    perfectFor: [
+      'Birthday parties',
+      'Pool parties',
+      'School events',
+      'Summer camps',
+      'Sports events',
+      'Teen parties',
+    ],
+    faq: [
+      {
+        q: 'How long do glitter tattoos last?',
+        a: 'Glitter tattoos typically last 3-7 days depending on placement and care. They are waterproof and can withstand swimming and bathing!',
+      },
+      {
+        q: 'Are glitter tattoos safe for sensitive skin?',
+        a: 'Yes! We use only cosmetic-grade glitter and skin-safe adhesive. However, if your child has adhesive sensitivities, please let us know.',
+      },
+    ],
+  },
+  {
+    id: 'bling-art',
+    icon: Gem,
+    title: 'Bling Art',
+    subtitle: 'Dazzling Face & Body Gems',
+    description:
+      'Elevate any look with our stunning bling art service! We apply beautiful rhinestones and gems to create eye-catching designs that add glamour and sparkle to faces, arms, and more.',
+    longDescription: `Bling art takes face decoration to the next level with gorgeous rhinestones, gems, and jewels arranged in stunning patterns. Perfect for festivals, special occasions, and anyone who wants to stand out!
+
+Our bling art designs range from simple accent gems to elaborate face jewelry arrangements. Using skin-safe adhesive, we create custom looks that complement face painting or stand beautifully on their own.`,
+    features: [
+      'High-quality rhinestones & gems',
+      'Skin-safe adhesive',
+      'Custom designs available',
+      'Complements face painting',
+      'Festival-ready looks',
+      'Perfect for photos & special occasions',
+    ],
+    perfectFor: [
+      'Festival events',
+      'Dance recitals',
+      'Quinceañeras',
+      'Sweet 16 parties',
+      'Photo shoots',
+      'Prom & formal events',
+    ],
+    faq: [
+      {
+        q: 'How long does bling art last?',
+        a: 'Bling art typically lasts throughout your event and can last 1-3 days with care. Avoid rubbing the area and they will stay put!',
+      },
+      {
+        q: 'Can bling art be combined with face painting?',
+        a: 'Absolutely! Bling art and face painting go perfectly together. Many clients choose to add gems as accents to their face painting designs for extra sparkle.',
+      },
+    ],
+  },
 ];
 
 export default function ServicesPage() {
@@ -136,10 +218,10 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl lg:text-5xl font-display font-bold text-gray-900 mb-6">
             Entertainment Services in{' '}
-            <span className="gradient-text">Charlotte, NC</span>
+            <span className="gradient-text">Charlotte & Lake Norman</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            Professional face painting and balloon twisting that brings magic to any event. 25+ years of experience. Starting at just $125!
+            Professional face painting, balloon twisting, glitter tattoos & bling art that brings magic to any event. 25+ years of experience serving Charlotte & Lake Norman. Starting at just $125!
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="tel:+17048903715" className="btn-primary">

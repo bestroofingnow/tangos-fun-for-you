@@ -21,11 +21,11 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   metadataBase: new URL('https://tangosfunforyou.com'),
   title: {
-    default: "Tango's Fun For You Events | Face Painting & Balloon Twisting Charlotte NC",
+    default: "Tango's Fun For You Events | Face Painting, Balloon Twisting, Glitter Tattoos Charlotte NC & Lake Norman",
     template: "%s | Tango's Fun For You Events Charlotte NC",
   },
   description:
-    'Professional face painting, balloon twisting & party entertainment in Charlotte, NC. 25+ years experience, 4.8★ rated. Birthday parties, corporate events, festivals. Book now! (704) 890-3715',
+    'Professional face painting, balloon twisting, glitter tattoos & bling art in Charlotte NC & Lake Norman. 25+ years experience, 4.8★ rated. Birthday parties, corporate events, festivals. Book now! (704) 890-3715',
   keywords: [
     'face painting Charlotte NC',
     'balloon twisting Charlotte',
@@ -35,12 +35,20 @@ export const metadata: Metadata = {
     'kids party entertainment',
     'corporate event entertainment Charlotte',
     'festival face painting',
-    'glitter tattoos Charlotte',
-    'henna tattoos Charlotte NC',
+    'glitter tattoos Charlotte NC',
+    'bling art Charlotte',
+    'face gems Charlotte NC',
     'party entertainment Matthews NC',
     'face painting Huntersville',
     'balloon animals Charlotte',
     'children entertainment Charlotte',
+    'Lake Norman face painting',
+    'Mooresville face painter',
+    'Lake Norman party entertainment',
+    'glitter tattoos Lake Norman',
+    'balloon twisting Lake Norman',
+    'waterproof glitter tattoos',
+    'face jewels Charlotte NC',
   ],
   authors: [{ name: 'Lynn Cochran', url: 'https://tangosfunforyou.com/about' }],
   creator: "Tango's Fun For You Events",
@@ -55,9 +63,9 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://tangosfunforyou.com',
     siteName: "Tango's Fun For You Events",
-    title: "Tango's Fun For You Events | Face Painting & Balloon Twisting Charlotte NC",
+    title: "Tango's Fun For You Events | Face Painting, Balloon Twisting, Glitter Tattoos & Bling Art Charlotte NC",
     description:
-      'Professional face painting, balloon twisting & party entertainment in Charlotte, NC. 25+ years experience. Book your event today!',
+      'Professional face painting, balloon twisting, glitter tattoos & bling art in Charlotte NC & Lake Norman. 25+ years experience. Book your event today!',
     images: [
       {
         url: '/images/og-image.jpg',
@@ -69,9 +77,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Tango's Fun For You Events | Charlotte NC Face Painting",
+    title: "Tango's Fun For You Events | Charlotte NC & Lake Norman Face Painting",
     description:
-      'Professional face painting & balloon twisting for parties and events in Charlotte. 25+ years experience. Call (704) 890-3715',
+      'Professional face painting, balloon twisting, glitter tattoos & bling art in Charlotte NC & Lake Norman. 25+ years experience. Call (704) 890-3715',
     images: ['/images/twitter-card.jpg'],
   },
   robots: {

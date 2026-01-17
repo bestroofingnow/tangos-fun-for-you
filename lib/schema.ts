@@ -7,7 +7,7 @@ export const organizationSchema = {
   name: "Tango's Fun For You Events",
   alternateName: 'Tangos Fun For You Events',
   description:
-    'Professional face painting, balloon twisting, and entertainment services in Charlotte, NC. Over 25 years of experience creating magical moments at birthday parties, corporate events, festivals, and more.',
+    'Professional face painting, balloon twisting, glitter tattoos, and bling art services in Charlotte NC & Lake Norman. Over 25 years of experience creating magical moments at birthday parties, corporate events, festivals, and more.',
   url: 'https://tangosfunforyou.com',
   telephone: '+1-704-890-3715',
   email: 'tangosfunforyou2@gmail.com',
@@ -34,12 +34,32 @@ export const organizationSchema = {
       },
     },
     {
+      '@type': 'Place',
+      name: 'Lake Norman',
+      containedInPlace: {
+        '@type': 'State',
+        name: 'North Carolina',
+      },
+    },
+    {
+      '@type': 'City',
+      name: 'Mooresville',
+    },
+    {
       '@type': 'City',
       name: 'Matthews',
     },
     {
       '@type': 'City',
       name: 'Huntersville',
+    },
+    {
+      '@type': 'City',
+      name: 'Cornelius',
+    },
+    {
+      '@type': 'City',
+      name: 'Davidson',
     },
     {
       '@type': 'City',
@@ -114,6 +134,22 @@ export const organizationSchema = {
           description: 'Creative balloon art and sculptures for parties and events',
         },
       },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Glitter Tattoos',
+          description: 'Waterproof glitter tattoos lasting 3-7 days, perfect for pool parties and summer events',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Bling Art',
+          description: 'Face and body gems with rhinestones for festivals and special occasions',
+        },
+      },
     ],
   },
   image: [
@@ -132,16 +168,22 @@ export const servicesSchema = [
       '@type': 'LocalBusiness',
       name: "Tango's Fun For You Events",
     },
-    areaServed: {
-      '@type': 'City',
-      name: 'Charlotte',
-      containedInPlace: {
-        '@type': 'State',
-        name: 'North Carolina',
+    areaServed: [
+      {
+        '@type': 'City',
+        name: 'Charlotte',
+        containedInPlace: {
+          '@type': 'State',
+          name: 'North Carolina',
+        },
       },
-    },
+      {
+        '@type': 'Place',
+        name: 'Lake Norman',
+      },
+    ],
     description:
-      'Professional face painting services for birthday parties, corporate events, festivals, and community gatherings in Charlotte, NC. Our skilled artists create everything from princess crowns to superhero masks.',
+      'Professional face painting services for birthday parties, corporate events, festivals, and community gatherings in Charlotte NC and Lake Norman. Our skilled artists create everything from princess crowns to superhero masks using safe, cosmetic-grade paints.',
     offers: {
       '@type': 'Offer',
       priceSpecification: {
@@ -160,16 +202,90 @@ export const servicesSchema = [
       '@type': 'LocalBusiness',
       name: "Tango's Fun For You Events",
     },
-    areaServed: {
-      '@type': 'City',
-      name: 'Charlotte',
-      containedInPlace: {
-        '@type': 'State',
-        name: 'North Carolina',
+    areaServed: [
+      {
+        '@type': 'City',
+        name: 'Charlotte',
+        containedInPlace: {
+          '@type': 'State',
+          name: 'North Carolina',
+        },
+      },
+      {
+        '@type': 'Place',
+        name: 'Lake Norman',
+      },
+    ],
+    description:
+      'Expert balloon twisting and balloon art for events in Charlotte NC and Lake Norman. From simple balloon animals to elaborate sculptures, we create magical balloon creations that delight children and adults alike.',
+    offers: {
+      '@type': 'Offer',
+      priceSpecification: {
+        '@type': 'PriceSpecification',
+        price: '125',
+        priceCurrency: 'USD',
+        minPrice: '125',
       },
     },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    serviceType: 'Glitter Tattoos',
+    provider: {
+      '@type': 'LocalBusiness',
+      name: "Tango's Fun For You Events",
+    },
+    areaServed: [
+      {
+        '@type': 'City',
+        name: 'Charlotte',
+        containedInPlace: {
+          '@type': 'State',
+          name: 'North Carolina',
+        },
+      },
+      {
+        '@type': 'Place',
+        name: 'Lake Norman',
+      },
+    ],
     description:
-      'Expert balloon twisting and balloon art for events in Charlotte, NC. From simple balloon animals to elaborate sculptures, we create magical balloon creations that delight children and adults alike.',
+      'Stunning glitter tattoos for parties and events in Charlotte NC and Lake Norman. Waterproof and lasting 3-7 days, our glitter tattoos are perfect for pool parties, summer events, and anyone who wants to sparkle.',
+    offers: {
+      '@type': 'Offer',
+      priceSpecification: {
+        '@type': 'PriceSpecification',
+        price: '125',
+        priceCurrency: 'USD',
+        minPrice: '125',
+      },
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    serviceType: 'Bling Art',
+    provider: {
+      '@type': 'LocalBusiness',
+      name: "Tango's Fun For You Events",
+    },
+    areaServed: [
+      {
+        '@type': 'City',
+        name: 'Charlotte',
+        containedInPlace: {
+          '@type': 'State',
+          name: 'North Carolina',
+        },
+      },
+      {
+        '@type': 'Place',
+        name: 'Lake Norman',
+      },
+    ],
+    description:
+      'Dazzling bling art and face gems for events in Charlotte NC and Lake Norman. We apply beautiful rhinestones and gems to create eye-catching designs perfect for festivals, special occasions, and photo-worthy moments.',
     offers: {
       '@type': 'Offer',
       priceSpecification: {
@@ -247,7 +363,23 @@ export const faqSchema = {
       name: 'What areas around Charlotte do you serve?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: "We serve Charlotte, NC and the entire Charlotte metro area including Matthews, Mint Hill, Huntersville, Cornelius, Davidson, Concord, Kannapolis, Gastonia, Rock Hill SC, Fort Mill SC, Indian Trail, Monroe, and surrounding communities. Contact us about your location!",
+        text: "We serve Charlotte, NC, Lake Norman, and the entire Charlotte metro area including Mooresville, Matthews, Mint Hill, Huntersville, Cornelius, Davidson, Concord, Kannapolis, Gastonia, Rock Hill SC, Fort Mill SC, Indian Trail, Monroe, and surrounding communities. Contact us about your location!",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Do you offer glitter tattoos for parties?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "Yes! Our glitter tattoos are a fantastic addition to any party. They're waterproof, last 3-7 days, and use cosmetic-grade, skin-safe glitter. Perfect for pool parties, summer events, and anyone who wants to sparkle without face paint.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What is bling art and do you offer it?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "Bling art is the application of beautiful rhinestones and gems to create dazzling face and body designs. Yes, we offer bling art services perfect for festivals, quinceañeras, dance recitals, and special occasions. It can be combined with face painting for extra sparkle!",
       },
     },
   ],

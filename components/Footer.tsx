@@ -4,6 +4,8 @@ import { Phone, Mail, MapPin, Clock, Linkedin, ThumbsUp, Music, Star } from 'luc
 const services = [
   { name: 'Face Painting', href: '/services#face-painting' },
   { name: 'Balloon Twisting', href: '/services#balloon-twisting' },
+  { name: 'Glitter Tattoos', href: '/services#glitter-tattoos' },
+  { name: 'Bling Art', href: '/services#bling-art' },
 ];
 
 const events = [
@@ -17,13 +19,16 @@ const events = [
 
 const serviceAreas = [
   'Charlotte',
+  'Lake Norman',
+  'Mooresville',
   'Matthews',
   'Huntersville',
+  'Cornelius',
+  'Davidson',
   'Concord',
   'Gastonia',
   'Rock Hill',
   'Fort Mill',
-  'Indian Trail',
 ];
 
 export default function Footer() {
@@ -38,7 +43,7 @@ export default function Footer() {
             Ready to Make Your Event Unforgettable?
           </h2>
           <p className="text-xl text-white/90 mb-6 max-w-2xl mx-auto">
-            Book Charlotte's most trusted face painting and balloon art team today!
+            Book Charlotte and Lake Norman's most trusted face painting, balloon art, glitter tattoos & bling art team today!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
@@ -67,7 +72,7 @@ export default function Footer() {
               Tango's Fun For You
             </h3>
             <p className="text-gray-400 mb-6">
-              Charlotte's premier face painting and balloon entertainment company with over 25 years of experience creating magical moments.
+              Charlotte and Lake Norman's premier face painting, balloon twisting, glitter tattoos & bling art company with over 25 years of experience creating magical moments.
             </p>
             <div className="flex items-center gap-1 mb-4">
               {[...Array(5)].map((_, i) => (
