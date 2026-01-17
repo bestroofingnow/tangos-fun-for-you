@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Star } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Linkedin, ThumbsUp, Music, Star } from 'lucide-react';
 
 const services = [
   { name: 'Face Painting', href: '/services#face-painting' },
@@ -159,20 +159,33 @@ export default function Footer() {
             </ul>
 
             {/* Social Links */}
-            <div className="flex gap-4 mt-6">
+            <div className="flex gap-3 mt-6">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/lynn-cochran-2921b698/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary-600 transition-colors"
-                aria-label="Follow us on Facebook"
+                aria-label="Connect on LinkedIn"
               >
-                <Facebook className="w-5 h-5" />
+                <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.thumbtack.com/nc/charlotte/face-painting/tangos-fun-for-you-events/service/137435784538973435"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary-600 transition-colors"
-                aria-label="Follow us on Instagram"
+                aria-label="Find us on Thumbtack"
               >
-                <Instagram className="w-5 h-5" />
+                <ThumbsUp className="w-5 h-5" />
+              </a>
+              <a
+                href="https://www.gigsalad.com/tangos_fun_for_you_events_charlotte"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary-600 transition-colors"
+                aria-label="Find us on GigSalad"
+              >
+                <Music className="w-5 h-5" />
               </a>
             </div>
           </div>

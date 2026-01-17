@@ -49,7 +49,7 @@ Each design is carefully crafted to delight, with options ranging from quick che
       'Festival and theatrical styles',
       'Character themes (current & classic)',
       'Adult-friendly sophisticated designs',
-      'FDA-compliant, hypoallergenic paints',
+      'Safe cosmetic-grade, FDA-compliant paints',
     ],
     perfectFor: [
       'Birthday parties',

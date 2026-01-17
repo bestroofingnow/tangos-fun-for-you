@@ -90,8 +90,9 @@ export const organizationSchema = {
     reviewCount: '36',
   },
   sameAs: [
-    'https://www.yelp.com/biz/tangos-fun-for-you-events-charlotte',
+    'https://www.linkedin.com/in/lynn-cochran-2921b698/',
     'https://www.thumbtack.com/nc/charlotte/face-painting/tangos-fun-for-you-events/service/137435784538973435',
+    'https://www.gigsalad.com/tangos_fun_for_you_events_charlotte',
   ],
   hasOfferCatalog: {
     '@type': 'OfferCatalog',

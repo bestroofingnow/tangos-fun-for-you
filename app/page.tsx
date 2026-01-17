@@ -20,8 +20,8 @@ const services = [
     icon: Palette,
     title: 'Face Painting',
     description:
-      'Transform any event with our professional face painting. From princess crowns to superhero masks, our skilled artists create stunning designs that wow kids and adults alike.',
-    features: ['Full face designs', 'Cheek art', 'Festival styles', 'Character themes'],
+      'Transform any event with our professional face painting using safe, cosmetic-grade paints. From princess crowns to superhero masks, our skilled artists create stunning designs that wow kids and adults alike.',
+    features: ['Full face designs', 'Cheek art', 'Festival styles', 'Safe cosmetic-grade paints'],
   },
   {
     icon: PartyPopper,
