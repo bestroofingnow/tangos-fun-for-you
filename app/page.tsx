@@ -28,7 +28,7 @@ const services = [
     title: 'Balloon Twisting',
     description:
       'Amazing balloon art that brings smiles to every face! Our balloon artists create everything from simple animals to elaborate sculptures and wearable balloon creations.',
-    features: ['Balloon animals', 'Swords & wands', 'Balloon hats', 'Custom sculptures'],
+    features: ['Balloon animals', 'Swords & wands', 'Balloon hats', 'Paint Parties'],
   },
 ];
 
@@ -123,11 +123,11 @@ export default function HomePage() {
               <div className="flex flex-wrap gap-4 justify-center lg:justify-start text-sm text-gray-600">
                 <div className="flex items-center gap-1">
                   <Shield className="w-4 h-4 text-green-500" />
-                  Background Checked
+                  Bonded & Insured
                 </div>
                 <div className="flex items-center gap-1">
-                  <Clock className="w-4 h-4 text-primary-500" />
-                  Same-Day Response
+                  <CheckCircle className="w-4 h-4 text-green-500" />
+                  Background Checked
                 </div>
                 <div className="flex items-center gap-1">
                   <Star className="w-4 h-4 text-accent-500" />
@@ -140,8 +140,8 @@ export default function HomePage() {
             <div className="relative">
               <div className="aspect-square max-w-lg mx-auto rounded-3xl shadow-2xl overflow-hidden">
                 <Image
-                  src="/hero-face-paint.jpg"
-                  alt="Child with beautiful face painting by Tango's Fun For You"
+                  src="/hero-main.jpg"
+                  alt="Professional face painting by Tango's Fun For You in Charlotte NC"
                   fill
                   className="object-cover"
                   priority
@@ -240,9 +240,9 @@ export default function HomePage() {
                   <Shield className="w-6 h-6 text-secondary-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-1">Background Checked & Insured</h3>
+                  <h3 className="font-bold text-gray-900 mb-1">Bonded, Insured & Background Checked</h3>
                   <p className="text-gray-600">
-                    Your family's safety is our priority. All team members are background checked.
+                    Your family's safety is our priority. We are fully bonded and insured, and all team members are background checked.
                   </p>
                 </div>
               </div>
@@ -273,15 +273,15 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* Image placeholder */}
+          {/* Lynn's Photo */}
           <div className="relative">
-            <div className="aspect-[4/5] bg-gradient-to-br from-secondary-200 via-primary-200 to-accent-200 rounded-3xl shadow-xl flex items-center justify-center">
-              <div className="text-center p-8">
-                <Users className="w-20 h-20 mx-auto text-secondary-500 mb-4" />
-                <p className="text-gray-600 font-medium">
-                  [Add photo of Lynn or team at an event]
-                </p>
-              </div>
+            <div className="aspect-[4/5] rounded-3xl shadow-xl overflow-hidden">
+              <Image
+                src="/lynn.jpg"
+                alt="Lynn Cochran - Owner of Tango's Fun For You Events"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>

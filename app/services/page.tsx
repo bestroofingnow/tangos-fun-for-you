@@ -84,7 +84,7 @@ The magic of balloon twisting lies in the performance - watching a simple balloo
       'Classic balloon animals (dogs, giraffes, monkeys)',
       'Swords, lightsabers, and wands',
       'Wearable creations (hats, bracelets, crowns)',
-      'Elaborate multi-balloon sculptures',
+      'Paint Parties',
       'Character balloons (popular themes)',
       'Custom requests and designs',
     ],
