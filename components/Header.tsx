@@ -65,7 +65,7 @@ export default function Header() {
               </Link>
             ))}
             <Link href="/contact" className="btn-primary">
-              Book Your Event
+              Check Availability!
             </Link>
           </div>
 
@@ -106,7 +106,7 @@ export default function Header() {
                   className="btn-primary w-full text-center"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  Book Your Event
+                  Check Availability!
                 </Link>
               </div>
             </div>

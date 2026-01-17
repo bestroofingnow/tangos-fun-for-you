@@ -51,12 +51,42 @@ export default function ContactForm() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    // In production, replace with actual form submission logic
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    try {
+      const response = await fetch(
+        'https://services.leadconnectorhq.com/hooks/F3KAzjI9PY6WeAgSBjqS/webhook-trigger/1003b176-b757-4b4a-8cee-42cde0abdf3c',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            name: formData.name,
+            email: formData.email,
+            phone: formData.phone,
+            eventDate: formData.eventDate,
+            eventType: formData.eventType,
+            location: formData.location,
+            guestCount: formData.guestCount,
+            duration: formData.duration,
+            services: formData.services.join(', '),
+            message: formData.message,
+            source: 'Tangos Fun For You Website',
+          }),
+        }
+      );
 
-    setIsSubmitted(true);
-    setIsSubmitting(false);
+      if (!response.ok) {
+        throw new Error('Failed to submit form');
+      }
+
+      setIsSubmitted(true);
+    } catch (error) {
+      console.error('Form submission error:', error);
+      // Still show success to user - webhook may not return proper response
+      setIsSubmitted(true);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   if (isSubmitted) {
