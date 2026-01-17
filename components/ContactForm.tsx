@@ -12,7 +12,17 @@ const eventTypes = [
   'Holiday Party',
   'Wedding/Reception',
   'Church Event',
-  'Other',
+  'Block Party',
+  'Grand Opening',
+  'Sports Event',
+  'Summer Camp',
+  'Pool Party',
+  'Quinceañera',
+  'Sweet 16',
+  'Baby Shower',
+  'Fundraiser',
+  'Prom/Formal',
+  'Other Fun Event',
 ];
 
 const services = [
@@ -20,7 +30,8 @@ const services = [
   'Balloon Twisting',
   'Glitter Tattoos',
   'Bling Art',
-  'Combo Package',
+  'Paint Party',
+  'Combo Package (2+ Services)',
 ];
 
 export default function ContactForm() {
