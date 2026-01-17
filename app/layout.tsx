@@ -3,6 +3,7 @@ import { Fredoka, Nunito } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ExitIntentPopup from '@/components/ExitIntentPopup';
 import { organizationSchema } from '@/lib/schema';
 
 const fredoka = Fredoka({
@@ -124,6 +125,7 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        <ExitIntentPopup />
 
         {/* Click-to-call tracking and accessibility */}
         <script
