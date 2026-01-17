@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import {
   Palette,
   PartyPopper,
@@ -135,15 +136,16 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Hero Image Placeholder */}
+            {/* Hero Image */}
             <div className="relative">
-              <div className="aspect-square max-w-lg mx-auto bg-gradient-to-br from-primary-200 via-secondary-200 to-accent-200 rounded-3xl shadow-2xl flex items-center justify-center">
-                <div className="text-center p-8">
-                  <Palette className="w-24 h-24 mx-auto text-primary-500 mb-4" />
-                  <p className="text-gray-600 font-medium">
-                    [Add your best face painting photo here]
-                  </p>
-                </div>
+              <div className="aspect-square max-w-lg mx-auto rounded-3xl shadow-2xl overflow-hidden">
+                <Image
+                  src="/hero-face-paint.jpg"
+                  alt="Child with beautiful face painting by Tango's Fun For You"
+                  fill
+                  className="object-cover"
+                  priority
+                />
               </div>
               {/* Floating elements */}
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-accent-300 rounded-full floating-animation opacity-50" />
