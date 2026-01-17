@@ -18,7 +18,9 @@ const eventTypes = [
 const services = [
   'Face Painting',
   'Balloon Twisting',
-  'Both Services',
+  'Glitter Tattoos',
+  'Bling Art',
+  'Combo Package',
 ];
 
 export default function ContactForm() {
@@ -270,13 +272,13 @@ export default function ContactForm() {
       {/* Services Selection */}
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-3">
-          Services Interested In *
+          Services Interested In * (select all that apply)
         </label>
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
           {services.map((service) => (
             <label
               key={service}
-              className={`flex items-center justify-center px-4 py-3 rounded-xl border-2 cursor-pointer transition-all ${
+              className={`flex items-center justify-center px-3 py-3 rounded-xl border-2 cursor-pointer transition-all text-center ${
                 formData.services.includes(service)
                   ? 'border-primary-500 bg-primary-50 text-primary-700'
                   : 'border-gray-200 hover:border-primary-300'
